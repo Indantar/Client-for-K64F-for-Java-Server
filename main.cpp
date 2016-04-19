@@ -7,8 +7,9 @@ DigitalIn pb(SW2);
 DigitalOut led(LED_GREEN);
 float T; // average temperature
 float K = 3.3*100;
-const char* ECHO_SERVER_ADDRESS = "192.168.1.1";
-const int ECHO_SERVER_PORT = 80;
+//const char* ECHO_SERVER_ADDRESS = "192.168.1.1";
+const char* ECHO_SERVER_ADDRESS = "10.12.22.213";
+const int ECHO_SERVER_PORT = 10;
 void serverConnection();
 EthernetInterface eth;
 
